@@ -8,9 +8,9 @@ namespace Gemini_api_test
 {
 
     public class MultiTurnChatSample
-    {
+    {        
         public async Task<string> GenerateContent(
-            string projectId = "warm-composite-404200",
+            string projectId,
             string location = "us-central1",
             string publisher = "google",
             string model = "gemini-1.0-pro"
